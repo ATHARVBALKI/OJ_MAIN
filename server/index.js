@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: true }));
 
 const allowedOrigins = [
   "http://localhost:5173", 
-  "https://online-judge-main.vercel.app"
+  "https://www.coderuler.online"
 ];
 
 app.use(
